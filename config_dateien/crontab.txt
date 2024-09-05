@@ -1,9 +1,15 @@
 # Edit this file to introduce tasks to be run by cron.
 # 
-# 
-# For more information see the manual pages of crontab(5) and cron(8)
-# 
-# m h  dom mon dow   command
+# diese File ist schon vorhanden
+#
+# die untenstehenden Einträge unten müssen als Superuser (root) in der Datei  
+# ergänzt werden
+#
+# die Datei lässt sich im Terminal mit dem 'crontab -e' editieren
+#
+# Jede Zeile in einer Crontab muss aus technischen Gründen mit einen Zeilenvorschub
+# (Leerzeile) enden.
+#
 @reboot /home/fft/start-ola.sh
 @reboot /home/fft/start-ola_trigger-201.sh
 @reboot /home/fft/start-ola_trigger-202.sh
